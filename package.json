@@ -1,0 +1,12 @@
+{
+  "name": "angled-corners",
+  "version": "0.1.0",
+  "description": "Houdini worklet for angled corners on the web",
+  "main": "angled-corners.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repo":"git@github.com:una/angled-corners.git",
+  "author": "Una Kravets",
+  "license": "ISC"
+}
