@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        CSS.paintWorklet.addModule('./angled-corners.js')
+    </script>
+    <style>
+     .angled {
+        --corner-radius: 0 20 20 0;
+        --paint-color: #6200ee;
+        --stroke-weight: 3;
+        padding: 1rem;
+        border: none;
+        background: paint(angled-corners);
+      }
+    </style>
+    <button class="angled">Test Outlined</button>
+</body>
+</html>

@@ -1,6 +1,6 @@
 {
   "name": "angled-corners",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Houdini worklet for angled corners on the web",
   "main": "angled-corners.js",
   "scripts": {
