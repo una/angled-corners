@@ -15,10 +15,10 @@ registerPaint('angled-corners', class {
     
     let radii = properties.get('--corner-radius').toString().replace(/px/g, '').split(' ').slice(1)
     const inset = parseInt(properties.get('--stroke-weight')[0])/2 || 0
-    const radius1 = radii[0]
-    const radius2 = radii[1]
-    const radius3 = radii[2]
-    const radius4 = radii[3]
+    const radius1 = radii[0] | 0
+    const radius2 = radii[1] | 0
+    const radius3 = radii[2] | 0
+    const radius4 = radii[3] | 0
 
     const height = Number(geom.height)
 
